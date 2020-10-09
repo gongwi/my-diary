@@ -21,14 +21,14 @@
 ###### 地点分布统计	
 
 一、小程序运行：
-1.1登录
- 请打开nodejs-portable（请使用2.9.0以上版本的nodejs-portable）中的nodejs-portable.exe，由于小程序功能需求，运行小程序前需安装echarts,mpvue-echarts，在页面内输入npm i echarts mpvue-echarts
+ 1.1登录
+  请打开nodejs-portable（请使用2.9.0以上版本的nodejs-portable）中的nodejs-portable.exe，由于小程序功能需求，运行小程序前需安装echarts,mpvue-echarts，在页面内输入npm i echarts mpvue-echarts
  
-cd改变文件路径到OneDiary文件夹下，输入npm run build:mp-weixin，当nodejs-portable.exe出现如下界面时:
+ cd改变文件路径到OneDiary文件夹下，输入npm run build:mp-weixin，当nodejs-portable.exe出现如下界面时:
  
-打开微信开发者工具，登录后，点击导航栏的“小程序”，点击调试小程序： 
+ 打开微信开发者工具，登录后，点击导航栏的“小程序”，点击调试小程序： 
  
-选择“导入项目”，在目录一栏找到OneDiary文件夹下的dist文件夹， 选择build文件夹下的mp-weixin文件夹，点击“导入”：
+ 选择“导入项目”，在目录一栏找到OneDiary文件夹下的dist文件夹， 选择build文件夹下的mp-weixin文件夹，点击“导入”：
   
 二、小程序主界面导览：
 小程序主界面主要分为3个部分，分别是卡片日记显示区、页面跳转区和日记筛选区。
